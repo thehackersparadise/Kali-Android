@@ -1,5 +1,9 @@
 #!/bin/bash
 #credits :- the hackers paradise
+mkdir docs
+mv kali.sh docs
+mv resolv.conf docs
+mv rungui.sh docs
 clear
 figlet -f slant Kali-Android
 echo -e '\033[1;32m' "Instagram - @thehackersparadise_"
