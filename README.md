@@ -32,10 +32,61 @@ To run Kali for Android effectively, ensure that your device meets the following
 
 ## Installation
 Follow these steps to install Kali for Android on your device:
-1. **Step 1**: Enable Unknown Sources - Go to your device's **Settings** > **Security** and enable the **Unknown Sources** option to allow installation from third-party sources.
-2. **Step 2**: Download the Kali for Android APK - Visit the official Kali for Android website at [https://example.com/kali-android](https://example.com/kali-android) and download the latest APK file.
-3. **Step 3**: Install the APK - Locate the downloaded APK file and tap on it to initiate the installation process. Follow the on-screen instructions to complete the installation.
-4. **Step 4**: Launch Kali for Android - Once the installation is complete, locate the Kali for Android app icon on your device's home screen or app drawer and tap on it to launch the application.
+1. **Step 1**: Install Termux From https://f-droid.org/repo/com.termux_118.apk
+2. **Step 2**: Open Termux And Copy/Paste The Below Commands
+   ```bash
+   apt update -y
+   ```
+   ```bash
+   apt install git -y
+   ```
+   ```bash
+   git clone https://github.com/THEHACKERSPARADISE/Kali-Android
+   ```
+   ```bash
+   cd Kali-Android
+   ```
+   ```bash
+   chmod +x *
+   ```
+   ```bash
+   bash setup.sh
+   ```
+   ```bash
+   bash Kali-Android.sh
+   ```
+   **Choose 1 For Full Install(Recommended)**
+
+   
+**Only If Asked** *[?] Existing rootfs directory found. Delete and create a new one? [y/N]* **Then Type**
+```bash
+   n
+   ```
+**Only If Asked** *[?] Existing image file found. Delete and download a new one? [y/N]* **Then Type**
+```bash
+   n
+   ```
+**Only If Asked** *[?] Delete downloaded rootfs file? [y/N]* **Then Type**
+```bash
+   n
+   ```
+
+***And All Set***
+
+## For Graphical User Interface
+```bash
+bash gui.sh
+```
+****Open A New Session****
+```bash
+nh -r
+```
+```bash
+apt-get update -y
+```
+```bash
+chmod +x * && ./rungui.sh
+```
 
 ## Usage
 Kali for Android provides a user-friendly interface that resembles the Kali Linux desktop environment. You can perform various tasks, including penetration testing, vulnerability scanning, wireless network analysis, and more. Here are some tips to help you get started:
@@ -52,9 +103,7 @@ If you encounter any issues while using Kali for Android, consider the following
 - Report bugs and issues: If you come across any bugs, glitches, or issues, report them to the official Kali for Android development team through their official channels.
 
 ## Contributing
-Kali for Android is an open-source project, and contributions from the community are highly appreciated. If you are interested in contributing to the project, please refer to the [CONTRIBUTING.md](https://example.com/kali-android/CONTRIBUTING.md) file for guidelines on how to get involved.
-
+Kali for Android is an open-source project, and contributions from the community are highly appreciated.
 ## License
 Kali for Android is released under the [GNU General Public License (GPL) version 3](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-I have provided the code in Markdown format. You can copy and paste it into a Markdown editor or a README.md file. Feel free to modify the content and formatting according to your needs.
