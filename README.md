@@ -1,6 +1,7 @@
 # Kali for Android
 
-![Kali for Android]()
+![Logo](https://github.com/thehackersparadise/Kali-Android/assets/154888406/881485ec-88bb-4d32-9f33-7f8ecc16cc0d)
+
 
 ## Introduction
 Kali for Android is an exciting platform that brings the power and versatility of the Kali Linux distribution to Android devices. It allows security professionals, ethical hackers, and enthusiasts to carry out various penetration testing and security auditing tasks directly from their Android smartphones or tablets. This README.md file serves as a comprehensive guide to get you started with Kali for Android, providing essential information, installation instructions, and tips for using the platform effectively.
